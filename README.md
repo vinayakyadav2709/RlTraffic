@@ -1,11 +1,34 @@
 # RlTraffic
 
-RlTraffic is a reinforcement learning-based traffic management system designed to optimize traffic flow using simulation-based training.
+RlTraffic is a reinforcement learning-based traffic management system designed to optimize traffic flow using simulation-based training. Our innovative solution reduces costs by **1000x** using cutting-edge AI and IoT technology. The project leverages SUMO (Simulation of Urban MObility) for realistic traffic simulation and RL algorithms to dynamically control traffic lights and improve traffic efficiency.
 
-**Demo Videos**:  
-- [![YouTube Video](https://img.youtube.com/vi/Uz8dTEscGJg/0.jpg)](https://youtu.be/Uz8dTEscGJg)
-- [![AI Demo](https://github.com/user-attachments/assets/a611e9da-dffc-407b-8c8d-312d79e6afbe)](https://github.com/user-attachments/assets/a611e9da-dffc-407b-8c8d-312d79e6afbe)
+**Videos**:  
+- **Presentation**: (https://youtu.be/Uz8dTEscGJg)  
+- **Demo**: (https://github.com/user-attachments/assets/a611e9da-dffc-407b-8c8d-312d79e6afbe)
 
+---
+
+## Diagrams
+
+**Data Flow Diagram**:  
+![Data Flow Diagram](https://github.com/user-attachments/assets/8ca16317-c707-4cc9-a137-136adba59fc4)  
+*Illustrates how data is processed and flows through various components of the RL traffic system.*
+
+**Roadmap Diagram**:  
+![RoadMap](https://github.com/user-attachments/assets/57a0979d-b143-4de6-891e-e4a3fe6068dc)  
+*Outlines project milestones, key features, and future development plans.*
+
+**RL vs Preset Comparison Diagram**:  
+![RL vs Preset Comparison](https://github.com/user-attachments/assets/7a8dddd6-601c-4fb9-a56b-27eb8cdee9a6)  
+*Shows performance differences between the RL approach and preset timings.*
+
+**Dashboard Diagram**:  
+![Dashboard](https://github.com/user-attachments/assets/9dad91a0-9db0-4852-9345-2a52a1d8b0d4)  
+*Displays real-time metrics and insights for monitoring system performance.*
+
+[Download Full Report (PDF)](https://github.com/user-attachments/files/19407084/report.pdf)
+
+*The report provides a concise analysis of the system architecture, experimental results, and highlights the 1000x cost reduction achieved through innovative AI and IoT integration.*
 
 ---
 
@@ -36,6 +59,7 @@ RlTraffic is a reinforcement learning-based traffic management system designed t
    pip install -r requirements.txt  
    ```
 
+---
 
 ## Setup
 
@@ -86,29 +110,32 @@ python test/preset.py
 ---
 
 ## File Structure
+
 ```
 RlTraffic/
 ├── configs/
 │   └── maps/                   # SUMO configuration files (.net.xml, .rou.xml)
 ├── trainedModels/              # Pre-trained RL models (gitignored)
 ├── model/
-│   └── train.py               # Training script for RL agent
+│   └── train.py                # Training script for RL agent
 ├── test/
-│   ├── test.py                # Compare RL vs preset performance
-│   └── preset.py              # Test preset timing only
-├── requirements.txt           # Python dependencies
-├── .gitignore                 # Ignores trainedModels/
+│   ├── test.py                 # Compare RL vs preset performance
+│   └── preset.py               # Test preset timing only
+├── requirements.txt            # Python dependencies
+├── .gitignore                  # Ignores trainedModels/
 └── README.md
 ```
 
 ---
 
 ## Credits
-- Inspired by [Dynamic-Traffic-light-management-system](https://github.com/Maunish-dave/Dynamic-Traffic-light-management-system).
+
+- [Dynamic-Traffic-light-management-system](https://github.com/Maunish-dave/Dynamic-Traffic-light-management-system).
 
 ---
 
 ## Contact
-For questions or support, contact:
+
+For questions or support, contact:  
 - **Email**: [vinayakyadav2709@gmail.com](mailto:vinayakyadav2709@gmail.com)
 ```
